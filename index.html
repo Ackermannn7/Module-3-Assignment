@@ -1,12 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="mod-3-assignment/css/bootstrap.css" />
+    <link rel="stylesheet" href="mod-3-assignment/css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-    
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1 id="top">Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#chicken">
+                <br class="hidden-xs"><p class="hid-lg">Chicken</p></a>
+            </li>
+            <li>
+              <a href="#beef">
+                <br class="hidden-xs"><p>Beef</p></a>
+            </li>
+            <li>
+              <a href="#sushi">
+                </span><br class="hidden-xs"><p>Sushi</p></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <h2 class="text-center">Our Menu</h2>
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chicken-tile">
+          <span id="chicken">Chicken</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nulla in rem, consequuntur delectus provident nihil, at necessitatibus deserunt aspernatur expedita asperiores. Velit ea sit blanditiis rem ullam dolorum officiis.
+            Repellendus expedita nihil totam quae commodi saepe rerum laborum ex omnis architecto, iste impedit, id ullam nisi quos quasi inventore sequi, soluta delectus beatae quibusdam eius consequuntur earum. Corrupti, fugiat?
+            Doloribus, error soluta! <a href="#top" class="back">Back to top</a>
+          </p>           
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="beef-tile">
+          <span id="beef">Beef</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nulla in rem, consequuntur delectus provident nihil, at necessitatibus deserunt aspernatur expedita asperiores. Velit ea sit blanditiis rem ullam dolorum officiis.
+            Repellendus expedita nihil totam quae commodi saepe rerum laborum ex omnis architecto, iste impedit, id ullam nisi quos quasi inventore sequi, soluta delectus beatae quibusdam eius consequuntur earum. Corrupti, fugiat?
+            Doloribus, error soluta! <a href="#top" class="back">Back to top</a>
+          </p>
+        </div>
+      </a>
+
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+          <div id="sushi-tile">
+            <span id="sushi">Sushi</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nulla in rem, consequuntur delectus provident nihil, at necessitatibus deserunt aspernatur expedita asperiores. Velit ea sit blanditiis rem ullam dolorum officiis.
+              Repellendus expedita nihil totam quae commodi saepe rerum laborum ex omnis architecto, iste impedit, id ullam nisi quos quasi inventore sequi, soluta delectus beatae quibusdam eius consequuntur earum. Corrupti, fugiat?
+              Doloribus, error soluta! <a href="#top" class="back">Back to top</a>
+            </p>
+          </div>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="mod-3-assignment/js/jquery-2.1.4.min.js"></script>
+  <script src="mod-3-assignment/js/bootstrap.min.js"></script>
+  <script src="mod-3-assignment/js/script.js"></script>
 </body>
 </html>
